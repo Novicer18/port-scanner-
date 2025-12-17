@@ -1,0 +1,25 @@
+PORT SCAN REPORT
+==================================================
+Target: 213.55.101.22
+Scan Time: 2025-12-17 11:40:32
+
+RAW NMAP OUTPUT:
+==================================================
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-12-17 11:36 EAT
+Nmap scan report for 213.55.101.22
+Host is up (0.0012s latency).
+Not shown: 65531 filtered tcp ports (no-response), 1 closed tcp port (reset)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 99.12 seconds
+
+==================================================
+FORMATTED RESULTS:
+==================================================
+Port 22/tcp: open - ssh
+Port 80/tcp: open - http
+Port 443/tcp: open - https
