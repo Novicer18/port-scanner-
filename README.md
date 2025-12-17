@@ -45,6 +45,9 @@ Designed for **security engineers, ethical hackers, and network automation profe
 **Linux (Debian/Ubuntu):**
 ```bash
 sudo apt install nmap
-## usage
 -git clone https://github.com/yourusername/python-nmap-port-scanner.git
 cd python-nmap-port-scanner
+```
+## how to run
+```python3 port_scanner.py
+```
