@@ -48,6 +48,7 @@ sudo apt install nmap
 -git clone https://github.com/yourusername/python-nmap-port-scanner.git
 cd python-nmap-port-scanner
 ```
-## how to run
-```python3 port_scanner.py
+**how to run:**
+```
+python3 port_scanner.py
 ```
